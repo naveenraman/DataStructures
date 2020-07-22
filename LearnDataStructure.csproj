@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArraysAndStrings\BasicCalculator.cs" />
+    <Compile Include="ArraysAndStrings\BasicCalculatorII.cs" />
     <Compile Include="ArraysAndStrings\FindLongestPalindrome.cs" />
     <Compile Include="ArraysAndStrings\FirstUniqueCharacter.cs" />
     <Compile Include="ArraysAndStrings\GroupArrayOfAnagrams.cs" />
@@ -51,6 +53,7 @@
     <Compile Include="ArraysAndStrings\ReorderDataInLogFiles.cs" />
     <Compile Include="ArraysAndStrings\TrappingRainWater.cs" />
     <Compile Include="ArraysAndStrings\TwoSumToTarget.cs" />
+    <Compile Include="ArraysAndStrings\WordLadderProblem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TreeAndGraph\CriticalConnectionsInANetwork.cs" />
