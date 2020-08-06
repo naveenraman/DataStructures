@@ -53,6 +53,7 @@
     <Compile Include="ArraysAndStrings\GroupArrayOfAnagrams.cs" />
     <Compile Include="ArraysAndStrings\IntegerToEnglishWords.cs" />
     <Compile Include="ArraysAndStrings\MeetingRoomsII.cs" />
+    <Compile Include="ArraysAndStrings\MinimumInsertionStepsToMakeAStringPalindrome.cs" />
     <Compile Include="ArraysAndStrings\MostCommonWordOtherThanBanned.cs" />
     <Compile Include="ArraysAndStrings\PartitionLabels.cs" />
     <Compile Include="ArraysAndStrings\ReorderDataInLogFiles.cs" />
