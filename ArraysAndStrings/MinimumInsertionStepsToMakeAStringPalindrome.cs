@@ -10,14 +10,13 @@ namespace LearnDataStructure.ArraysAndStrings
     {
         public int MinInsertions(string s)
         {
-            if (s == null || s.Length == 0) return 0;
-            int n = s.Length;
-            int[,] array = new int[n, n];
-            for (int i = 0; i < n; i++)
+            if (string.IsNullOrWhiteSpace(s)) return 0;
+            int[,] array = new int[s.Length, s.Length];
+            for (int i = 0; i < s.Length; i++)
                 array[i, i] = 1;
-            for (int ct = 2; ct <= n; ct++)
+            for (int ct = 2; ct <= s.Length; ct++)
             {
-                for (int i = 0; i < n - ct + 1; i++)
+                for (int i = 0; i < s.Length - ct + 1; i++)
                 {
                     int j = i + ct - 1;
                     if (s[i] == s[j])
@@ -33,7 +32,7 @@ namespace LearnDataStructure.ArraysAndStrings
                     }
                 }
             }
-            return n - array[0, n - 1];
+            return s.Length - array[0, s.Length - 1];
         }
     }
 }
