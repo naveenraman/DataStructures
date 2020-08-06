@@ -45,12 +45,19 @@
   <ItemGroup>
     <Compile Include="ArraysAndStrings\BasicCalculator.cs" />
     <Compile Include="ArraysAndStrings\BasicCalculatorII.cs" />
+    <Compile Include="ArraysAndStrings\ConcatenatedWords.cs" />
+    <Compile Include="ArraysAndStrings\FindAllAnagramsInAString.cs" />
     <Compile Include="ArraysAndStrings\FindLongestPalindrome.cs" />
+    <Compile Include="ArraysAndStrings\FindTheClosestPalindrome.cs" />
     <Compile Include="ArraysAndStrings\FirstUniqueCharacter.cs" />
     <Compile Include="ArraysAndStrings\GroupArrayOfAnagrams.cs" />
     <Compile Include="ArraysAndStrings\IntegerToEnglishWords.cs" />
+    <Compile Include="ArraysAndStrings\MeetingRoomsII.cs" />
     <Compile Include="ArraysAndStrings\MostCommonWordOtherThanBanned.cs" />
+    <Compile Include="ArraysAndStrings\PartitionLabels.cs" />
     <Compile Include="ArraysAndStrings\ReorderDataInLogFiles.cs" />
+    <Compile Include="ArraysAndStrings\Search2DMatrixII.cs" />
+    <Compile Include="ArraysAndStrings\SlidingWindowMaximum.cs" />
     <Compile Include="ArraysAndStrings\TrappingRainWater.cs" />
     <Compile Include="ArraysAndStrings\TwoSumToTarget.cs" />
     <Compile Include="ArraysAndStrings\WordLadderProblem.cs" />

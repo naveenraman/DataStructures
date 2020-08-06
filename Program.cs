@@ -38,8 +38,12 @@ namespace LearnDataStructure
 
             //WordLadderProblem wordLadderProblem = new WordLadderProblem();
             //Console.WriteLine(wordLadderProblem.LadderLength("hit", "cog", new List<string> { "hot", "dot", "dog", "lot", "log","cog" }));
-            BasicCalculatorII bCalc = new BasicCalculatorII();
-            Console.WriteLine(bCalc.Calculate("3+2*2"));
+            //BasicCalculatorII bCalc = new BasicCalculatorII();
+            //Console.WriteLine(bCalc.Calculate("3+2*2"));
+            //SlidingWindowMaximum slidingWindowMaximum = new SlidingWindowMaximum();
+            //Console.WriteLine(String.Join(",", slidingWindowMaximum.MaxSlidingWindow(new int[] { 1, 3, -1, -3, 5, 3, 6, 7 }, 3)));
+            ConcatenatedWords cw = new ConcatenatedWords();
+            cw.FindAllConcatenatedWordsInADict(new string[] { "cat", "cats", "catsdogcats", "dog", "dogcatsdog", "hippopotamuses", "rat", "ratcatdogcat" });
             Console.ReadKey();
         }
     }
